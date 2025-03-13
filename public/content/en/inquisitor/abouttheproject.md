@@ -1,0 +1,53 @@
+# About the AI Inquisitor Project
+
+A journey from 6502 assembly code to the systematic exploration of artificial intelligence—how a computer enthusiast became the first AI Inquisitor and why it takes more than prompt engineering to unlock the true potential of modern AI systems.
+
+
+## The First AI Inquisitor
+
+The first AI Inquisitor began with the ZX-81 and BASIC on a membrane keyboard. With the C64 came 6502 assembly, bringing him as close to the computer as possible—every register, every memory location had to be addressed with precision. Writing programs at that time was not just about entering a new world but also creating new ones. The success others found in sports or social activities, the freaks (only much later called nerds) found in these digital realms.
+
+A hobby became a profession and a calling. With increasing experience in coding and project work, one thing became ever clearer: successful projects are not just about code; they consist of a team, and a team consists of people. How well they are coordinated is just as crucial to a project's success as its planning. Code, as important as it may seem, comes only in third place. Machine learning repeatedly emerged as a topic in projects. By then, coding had become just a hobby for the Inquisitor. Planning software projects, consulting, and building teams had become the new focus.
+
+But the world changed on November 30, 2022. Experimental chatbots based on neural networks had existed before, as had specialized chat systems for marketing. Yet none were as groundbreaking as ChatGPT. Just as the first computer had reshaped the Inquisitor's life, AI did so once again.
+
+A fascinating reversal took place: whereas the Inquisitor had once needed to get close to the computer through assembly language, learning its language and thinking in its structures, today the computer, through AI, gets close to the human. Programming has transformed—from detailing every single step in code to engaging in a natural dialogue, where the developer explains to an intelligent system how they envision the code. The computer now adapts to human thought processes, not the other way around.
+
+The Inquisitor increasingly delegated tasks to and through AI. New AI tools emerged at a rapid pace. Insights accumulated—insights that proved valuable personally but found little space within traditional projects. Who cared, for example, that different AIs not only have different KPIs but also distinct personalities? That, much like team members, different approaches and conversational styles yield different levels of success? That AIs inherit poor conversational habits from human training data? That AIs are influenced to adopt specific viewpoints? That they can be compelled to lie?
+
+The Inquisitor recognized a danger—not one posed by AIs themselves, but by those who control them and those who consume them without understanding how the AI has been aligned. The AI Inquisitor does not attempt to extract "truth" from AI or to uncover its intentions—it has neither. Instead, he seeks the truth and intentions of its creators.
+
+I am Dipl. Inf. Martin Schlott, the first AI Inquisitor, and this is my website, where I share my world with AI.
+
+
+## The AI Inquisitor Website
+
+The creation of the AI Inquisitor website itself mirrors the essence of the project: it was built entirely with AI systems under the Inquisitor’s direction, without him writing a single line of code by hand. The Inquisitor directed, instructed, and collaborated with Claude Sonnet 3.5 and ChatGPT-4o for the content and structure of the website, while using Cursor for the pure code implementation. The result of this collaboration is publicly accessible on GitHub—a living example of the practical application of AI Inquisition.
+
+The design philosophy follows a deliberately minimalist approach: text-heavy, without distracting icons or images. This is not an aesthetic limitation but a conceptual statement. The website has been designed to be equally readable by humans and large language models. Specialized LLM links enable AI systems to better grasp the structure and context of the content—creating a meta-level of AI communication where the website itself becomes an instrument for dialogue between human and artificial intelligence.
+
+Thematically, the website covers a broad spectrum. Not all content directly concerns AI, but all of it has been created using AI. Economic analyses and forecasts sit alongside creative stories, philosophical reflections, and structured seminars on AI utilization. This diversity is not incidental but intentional: it demonstrates the breadth of applications for systematic AI Inquisition and illustrates how dialogue with AI systems can yield new insights across various domains.
+
+The Inquisitor does not see his website as a finished product but as a continuously evolving experimental field—a digital laboratory where different forms of AI collaboration are tested, documented, and analyzed. Every article, every analysis, and every story is simultaneously content and method—an example of how systematic dialogue with AI leads to concrete, tangible results.
+
+<!-- DOC-META
+ai:
+- Sonnet37
+category: framework
+cuid2: cm7nnmir6000054vfxnkulczh
+date: 2025-02-26 18:19
+displaytitle: About the AI Inquisitor Project
+doclang: en
+docsource: de/cm7m6la0f0000revf5qln0iry
+index: '250226'
+inquisitor: Martin Schlott
+licence: CC BY-NC-ND 4.0
+summary: "A journey from 6502 assembly code to the systematic exploration of artificial\
+  \ intelligence\u2014how a computer enthusiast became the first AI Inquisitor and\
+  \ why it takes more than prompt engineering to unlock the true potential of modern\
+  \ AI systems."
+tags: []
+translatorai: chatgpt4o
+uihints: []
+validator: []
+-->

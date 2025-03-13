@@ -1,0 +1,15 @@
+{
+  "social": {
+    "x": {
+      "title": "@AI_Inquisitor",
+      "ariaLabel": "Follow the AI Inquisitor on X"
+    },
+    "linkedin": {
+      "title": "Martin Schlott",
+      "ariaLabel": "Connect with Martin Schlott on LinkedIn"
+    }
+  },
+  "links": {
+    "imprint": "Imprint"
+  }
+}

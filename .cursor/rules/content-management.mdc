@@ -1,0 +1,50 @@
+---
+description: Content management systems and rules for the AI-Inquisitor website
+globs: *.md,*.json
+alwaysApply: false
+---
+# Content Management
+
+## Core Principles
+- Markdown-based content with metadata sections
+- Language-specific content trees
+- Tag and category system
+- Open Graph image support
+
+## Content Structure
+- Content files in Markdown with metadata sections (DOC-META, SEC-META)
+- Language-specific default OG images defined in languages.json
+- Pages without DOC-META fall back to language header title and default image
+- Clear hierarchical structure
+- Language-specific navigation
+
+## Tag and Category System
+- Defined in `content/common/tagsandcategories.json`
+- Used for filtering and organizing content
+- Referenced in DOC-META and SEC-META sections
+
+## AI Model References
+- Available AI models defined in `content/common/ai_models.json`
+- Used to document which AI models were used in content creation
+- Referenced in DOC-META metadata
+
+## Open Graph Support
+- Default images for each language
+- Content-specific images can be defined in DOC-META
+- Image paths are relative to the public directory
+
+## Language-Specific Content Trees
+- Each language has its own independent content structure
+- Translations are managed separately
+- Navigation structure can vary between languages
+
+## Image and Media Management
+- Media files stored in `public/content/media/`
+- Language-specific media in `public/content/{lang}/media/`
+- Referenced in Markdown with relative paths
+
+## Content Creation Guidelines
+- Follow the document metadata guidelines in `doc-metadata.mdc`
+- Ensure consistent structure and formatting
+- Use appropriate tags and categories
+- Include necessary metadata for SEO and sharing

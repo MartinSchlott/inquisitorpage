@@ -1,0 +1,71 @@
+---
+description: Core CSS architecture and styling principles
+globs: *.css
+alwaysApply: false
+---
+# CSS Architecture
+
+## Core Principles
+- Content drives design decisions.
+- Modular and maintainable CSS structure.
+- Mobile-first responsive design.
+- **No direct styles in `main.css`** (only imports).
+
+## File Organization
+
+### **Global Styles**
+- `main.css` → **Import hub** for all styles, no direct styles allowed.
+- `base.css` → Resets and global typography.
+- `utilities.css` → Reusable utility classes.
+- `themes.css` → Dark/light mode definitions.
+- `z-index.css` → Layering and stacking context.
+
+### **Layout & Component Styles**
+- `header.css` → Header styles.
+- `navigation.css` → Navigation & mobile menu.
+- `content.css` → Content structure.
+- `footer.css` → Footer layout.
+- `cookie-banner.css` → Styles for cookie consent banner.
+- `action-menu.css` → Floating action button and submenu.
+- `theme-toggle.css` → Theme selection styles.
+- `language-toggle.css` → Language selection styles.
+
+### **Component-Specific Styles**
+- **All component styles should be in** `src/styles/`
+- Example: `src/styles/share-dialog.css`
+- If a new component requires styles, create a dedicated file in this directory.
+
+## Styling Guidelines
+
+### **DO**
+- Add styles to the appropriate existing file.
+- Create new CSS files for distinct features.
+- Follow a **mobile-first** approach.
+- Keep selectors flat and specific.
+- Use `themes.css` for light/dark mode adjustments.
+
+### **DON'T**
+- Add styles directly to `main.css`.
+- Mix unrelated styles in the same file.
+- Use `!important` unless absolutely necessary.
+- Create deeply nested selectors.
+
+## Mobile-First Approach
+- Standard breakpoint: `@media (max-width: 768px) { ... }`
+- Define mobile styles **after** desktop styles.
+- Ensure content hierarchy is preserved on small screens.
+
+## Component Styling Rules
+- **Group related styles together**.
+- Use **self-contained component styles**.
+
+## Extending the System
+- New features may require new CSS files.
+- Place them in `src/styles/`.
+- Import them in `main.css`.
+- Document their purpose in a comment at the top of the file.
+
+## Related Project Files
+- `.cursor/rules/ui-components.mdc` → UI component design principles.
+- `themes.css` → Defines theme colors and dark/light mode handling.
+- `z-index.css` → Handles stacking order of elements.

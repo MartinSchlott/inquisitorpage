@@ -1,0 +1,20 @@
+{
+  "aria": {
+    "menu": "Action menu",
+    "trigger": "Actions"
+  },
+  "actions": {
+    "share": {
+      "label": "Share link"
+    },
+    "copyLink": {
+      "label": "Copy LLM link"
+    },
+    "exportPdf": {
+      "label": "Export as PDF"
+    },
+    "copyMarkdown": {
+      "label": "Copy Markdown to clipboard"
+    }
+  }
+}

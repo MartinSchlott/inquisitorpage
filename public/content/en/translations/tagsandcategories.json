@@ -1,0 +1,130 @@
+{
+    "tags": {
+      "politics": {
+        "name": "Politics",
+        "description": "Political topics, e.g., legislation, power structures, international relations."
+      },
+      "economics": {
+        "name": "Economics",
+        "description": "Economic topics, e.g., markets, economic policy, economic theories."
+      },
+      "law": {
+        "name": "Law",
+        "description": "Legal topics, e.g., laws, legal theory, legal analyses."
+      },
+      "history": {
+        "name": "History",
+        "description": "Historical events, developments, and their significance."
+      },
+      "news": {
+        "name": "News",
+        "description": "Current events and news relevant to the blog."
+      },
+      "ethics": {
+        "name": "Ethics",
+        "description": "Moral and ethical questions in various contexts."
+      },
+      "education": {
+        "name": "Education",
+        "description": "Education and knowledge dissemination, e.g., seminars, tutorials."
+      },
+      "science": {
+        "name": "Science",
+        "description": "Scientific topics, e.g., research, scientific principles."
+      },
+      "philosophy": {
+        "name": "Philosophy",
+        "description": "Philosophical considerations, theories, and reflections."
+      },
+      "energy-transition": {
+        "name": "Energy Transition",
+        "description": "Energy transition, renewable energies, sustainable technologies."
+      },
+      "climate-change": {
+        "name": "Climate Change",
+        "description": "Climate change, environmental policy, and global warming."
+      },
+      "society": {
+        "name": "Society",
+        "description": "Societal topics, e.g., social movements, social change."
+      },
+      "zeitgeist": {
+        "name": "Zeitgeist",
+        "description": "Zeitgeist topics such as diversity, cultural trends, and modern values."
+      },
+      "technology": {
+        "name": "Technology",
+        "description": "Technological developments and their impact on society and the economy."
+      },
+      "eu": {
+        "name": "European Union",
+        "description": "Topics related to the European Union, e.g., politics, legislation, integration."
+      },
+      "germany": {
+        "name": "Germany",
+        "description": "Topics related to Germany, e.g., politics, legislation, integration."
+      }
+    },
+    "categories": {
+      "uncategorized": {
+        "name": "Uncategorized",
+        "description": "Default category for content that has not yet been assigned."
+      },
+      "navdoc": {
+        "name": "Navigation Document",
+        "description": "Documents for navigation, e.g., index pages, menus."
+      },
+      "story": {
+        "name": "Story",
+        "description": "Narrative content, e.g., stories, tales, or illustrative examples."
+      },
+      "article": {
+        "name": "Article",
+        "description": "Classic articles on a topic, e.g., analyses or opinion pieces."
+      },
+      "forecast": {
+        "name": "Forecast",
+        "description": "Forecasts, future analyses, or trends."
+      },
+      "analysis": {
+        "name": "Analysis",
+        "description": "In-depth analyses and critical considerations."
+      },
+      "knowledge": {
+        "name": "Knowledge",
+        "description": "Basic knowledge, e.g., tutorials or explanatory content."
+      },
+      "tutorial": {
+        "name": "Tutorial",
+        "description": "Step-by-step guides or training content."
+      },
+      "guideline": {
+        "name": "Guideline",
+        "description": "Practical guidelines or recommendations on specific topics."
+      },
+      "framework": {
+        "name": "Framework",
+        "description": "Methodological or systematic approaches, e.g., models or concepts for AI Inquisition."
+      },
+      "thoughtstorm": {
+        "name": "Thought Storm",
+        "description": "Creative and philosophical texts, unconventional ideas, or reflections."
+      },
+      "services": {
+        "name": "Services",
+        "description": "Descriptions of consulting and seminar offerings."
+      },
+      "primer": {
+        "name": "Primer",
+        "description": "Introductory texts, hypothetical case studies, and systematic considerations."
+      },
+      "meta": {
+        "name": "Meta",
+        "description": "Meta-information such as imprint, privacy policy, 'About the Inquisitor'."
+      },
+      "stub": {
+        "name": "Stub",
+        "description": "Placeholder documents for untranslated or yet-to-be-created content."
+      }
+    }
+  }

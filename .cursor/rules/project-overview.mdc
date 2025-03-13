@@ -1,0 +1,84 @@
+---
+description: Overview of the AI-Inquisitor project architecture and structure
+globs: *.*
+alwaysApply: false
+---
+# AI-Inquisitor Project Overview
+
+## Core Principles
+
+### Content Philosophy
+- Content drives design decisions
+- Clear typography and content hierarchy
+- Focus on readability
+- Minimalist UI without decoration
+- Elegant interaction design
+- Light/Dark theme adaption with system preference support
+
+## Technical Architecture
+
+### Technology Stack
+- React with TypeScript
+- Client-side Markdown rendering
+- Modular CSS architecture
+- Static site generation with Vite
+
+### Content Processing
+- Markdown-based content with metadata (DOC-META, SEC-META)
+- Configuration via JSON files
+- Multi-language support
+  - Language configuration in content/common/languages.json
+  - Auto-detection based on browser language
+  - Persistent language selection
+  - Fallback chain: User Selection > Browser Language > English > German
+  - Language-specific navigation structure
+
+### Project Structure
+
+```
+/inquisitorpage
+├── .cursor/
+│   └── rules/       # Cursor AI guidelines
+│       ├── styleguide.mdc
+│       ├── i18n.mdc  # Internationalization guidelines
+│       ├── ui-components.mdc  # UI component rules
+│       ├── components.mdc  # General component structure
+│       ├── doc-metadata.mdc  # Markdown metadata specifications
+├── public/
+│   └── content/     # Content directory (Markdown)
+│       ├── common/  # Shared configuration (JSON)
+│       │   ├── languages.json  # Available languages
+│       ├── media/   # Images for Open Graph and general media content
+│       ├── de/      # German content
+│       │   ├── translations/  # German translations
+│       │   └── permalinks.txt  # German permalink mappings
+│       └── en/      # English content
+│           ├── translations/  # English translations
+│           └── permalinks.txt  # English permalink mappings
+├── src/
+│   ├── components/  # React components
+│   ├── context/     # React contexts
+│   ├── hooks/       # Custom React hooks
+│   ├── styles/      # Modular CSS files
+│   ├── utils/       # Helper functions
+│   ├── types/       # TypeScript types (translations, context, etc.)
+│   └── App.tsx      # Main application
+```
+
+## Development Guidelines
+
+### For AI Assistants
+- Follow the rules in `.cursor/rules/styleguide.mdc`
+- **When creating a new component, you must read:** `.cursor/rules/components.mdc`
+- Respect content-driven design principles
+- Keep components and styles modular
+- Mobile-first responsive design
+- Support keyboard and touch interactions
+
+## Accessibility
+The project emphasizes accessibility through:
+- Semantic HTML structure
+- ARIA attributes and roles
+- Keyboard navigation
+- Touch-friendly targets
+- Clear visual feedback

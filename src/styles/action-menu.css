@@ -1,0 +1,181 @@
+/* Action Menu Component */
+.action-menu {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: var(--z-index-fab);
+  font-family: var(--font-headings);
+  transition: var(--transition-transform);
+}
+
+.action-menu--above-footer {
+  transform: translateY(-2.5rem);
+}
+
+@media (max-width: 768px) {
+  .action-menu {
+    bottom: 1.5rem;
+    right: 1rem;
+  }
+  
+  .action-menu--above-footer {
+    transform: translateY(-3rem);
+  }
+}
+
+.action-menu__inner {
+  position: relative;
+  display: inline-block;
+}
+
+.action-menu__trigger {
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-text-primary);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: var(--transition-box-shadow);
+  color: var(--color-text-primary);
+  
+  @media (max-width: 768px) {
+    padding: 1rem 1.25rem;
+  }
+}
+
+.action-menu__trigger:hover,
+.action-menu__trigger:focus {
+  box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.action-menu__trigger:focus {
+  outline: 2px solid var(--color-text-primary);
+  outline-offset: 2px;
+}
+
+.action-menu__expansion {
+  position: absolute;
+  right: 50%;
+  bottom: calc(100% - 1px);
+  transform: translateX(50%);
+  pointer-events: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 12px;
+  min-height: 240px;
+  width: 300px;
+  padding-bottom: 8px;
+}
+
+.action-menu__expansion--visible {
+  pointer-events: all;
+}
+
+.action-menu__mask {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 1px);
+  height: calc(100% - 6px);
+  width: 200px; /* Reduzierte Breite, damit sie nicht über den gesamten Viewport geht */
+  background: var(--color-bg-primary);
+  z-index: 1;
+  pointer-events: none;
+  transition: var(--transition-theme);  /* Hier ist der Fix! Synchrone Transition mit dem Content */
+}
+
+.action-menu__line {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 2px;
+  height: 0;
+  background: var(--color-text-primary);
+  transform: translateX(-50%);
+  transition: height 0.3s ease;
+  z-index: 2;
+}
+
+.action-menu__expansion--visible .action-menu__line {
+  height: 123px;
+}
+
+.action-menu__item {
+  position: relative;
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-text-primary);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  transform: translateX(350px); /* Erhöht von 240px auf 350px um sicherzustellen, dass lange Texte nicht sichtbar sind */
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  transition: var(--transition-transform);
+  transition-delay: 0s;
+  margin-right: calc(50% + 10px);
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.action-menu__item::before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  width: 1.5rem;
+  height: 2px;
+  background: var(--color-text-primary);
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.action-menu__expansion--visible .action-menu__item {
+  transform: translateX(0);
+  transition-delay: calc(var(--item-index, 0) * 0.05s + 0.1s);
+}
+
+@media (max-width: 768px) {
+  .action-menu__trigger {
+    width: 2rem;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+
+  .action-menu__trigger-text {
+    position: relative;
+    display: inline-block;
+    width: 1ch;
+    overflow: hidden;
+  }
+}
+
+.action-menu__item--disabled {
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+@keyframes pulse {
+  0% {
+    outline: 2px solid var(--color-text-primary);
+    outline-offset: 0px;
+    opacity: 1;
+    border-radius: 6px;
+  }
+  100% {
+    outline: 2px solid var(--color-text-primary);
+    outline-offset: 10px;
+    opacity: 0;
+    border-radius: 8px;
+  }
+}
+
+.action-menu__item--pulse {
+  position: relative;
+}
+
+.action-menu__item--pulse::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  animation: pulse 0.5s ease-out forwards;
+}

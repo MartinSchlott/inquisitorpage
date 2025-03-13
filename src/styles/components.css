@@ -1,0 +1,109 @@
+/* Quote Section */
+.quote-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--color-bg-secondary);
+    margin: 2rem 0;
+}
+
+.quote-text {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--color-text-primary);
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: var(--line-height-normal);
+}
+
+/* Buttons */
+.cta-button {
+    font-family: var(--font-headings);
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: var(--color-text-primary);
+    color: var(--color-bg-secondary);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--transition-color);
+}
+
+.cta-button:hover {
+    background-color: var(--color-link-hover);
+}
+
+/* 404 Page */
+.not-found {
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.not-found h1 {
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-bold);
+    font-size: 2em;
+    margin-bottom: 1rem;
+    color: var(--color-text-primary);
+}
+
+.not-found p {
+    font-family: var(--font-primary);
+    font-size: 1.1em;
+    margin-bottom: 2rem;
+    color: var(--color-text-secondary);
+}
+
+.not-found a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--color-text-primary);
+    color: var(--color-bg-secondary);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: var(--transition-color);
+}
+
+.not-found a:hover {
+    background-color: var(--color-link-hover);
+    color: var(--color-bg-secondary);
+}
+
+/* Cards */
+.card {
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+/* Alerts */
+.alert {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.alert-info {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+.alert-warning {
+    background-color: #fff3e0;
+    color: #e65100;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: var(--font-weight-bold);
+    border-radius: 2px;
+    background: var(--color-bg-primary);
+    color: var(--color-text-primary);
+}

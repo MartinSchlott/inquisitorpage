@@ -1,0 +1,73 @@
+{
+    "language": "de",
+    "mainNav": [
+      {
+        "id": "insights",
+        "title": "Erkenntnisse",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Überblick",
+            "path": "/de/insights/index"
+          },
+          {
+            "id": "singularity",
+            "title": "Ökonomische Singularität",
+            "path": "/de/insights/singularity/index"
+          },
+          {
+            "id": "articles",
+            "title": "Artikel",
+            "path": "/de/insights/articles"
+          }
+        ]
+      },
+      {
+        "id": "reflections",
+        "title": "Reflexionen",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Überblick",
+            "path": "/de/reflections/index"
+          },
+          {
+            "id": "primers",
+            "title": "Primer",
+            "path": "/de/reflections/primers/index"
+          },
+          {
+            "id": "stories",
+            "title": "Stories",
+            "path": "/de/reflections/stories/index"
+          },
+          {
+            "id": "thoughtstorm",
+            "title": "Gedankenstürme",
+            "path": "/de/reflections/thoughtstorm/index"
+          }
+        ]
+      },
+      {
+        "id": "inquisitor",
+        "title": "KI-Inquisition",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Überblick",
+            "path": "/de/inquisitor/index"
+          },
+          {
+            "id": "abouttheproject",
+            "title": "Über das KI-Inquisitor Projekt",
+            "path": "/de/inquisitor/abouttheproject"
+          },
+          {
+            "id": "pitchdoc",
+            "title": "Die KI-Inquisition",
+            "path": "/de/inquisitor/pitchdoc"
+          }
+        ]
+      }
+    ]
+  }

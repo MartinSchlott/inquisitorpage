@@ -1,0 +1,7 @@
+{
+  "loading": "Loading articles...",
+  "noArticles": "No articles found",
+  "noArticlesFiltered": "No articles match the selected filters",
+  "errorLoading": "Error loading articles",
+  "retry": "Retry"
+}

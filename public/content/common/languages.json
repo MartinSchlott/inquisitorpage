@@ -1,0 +1,12 @@
+{
+  "de": {
+    "short": "DE",
+    "name": "Deutsch",
+    "ogimage": "content/media/ogimg/de.jpg"
+  },
+  "en": {
+    "short": "EN",
+    "name": "English",
+    "ogimage": "content/media/ogimg/en.jpg"
+  }
+}

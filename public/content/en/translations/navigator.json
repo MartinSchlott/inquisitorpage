@@ -1,0 +1,73 @@
+{
+    "language": "en",
+    "mainNav": [
+      {
+        "id": "insights",
+        "title": "Insights",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "path": "/en/insights/index"
+          },
+          {
+            "id": "singularity",
+            "title": "Economic Singularity",
+            "path": "/en/insights/singularity/index"
+          },
+          {
+            "id": "articles",
+            "title": "Articles",
+            "path": "/en/insights/articles"
+          }
+        ]
+      },
+      {
+        "id": "reflections",
+        "title": "Reflections",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "path": "/en/reflections/index"
+          },
+          {
+            "id": "primers",
+            "title": "Primers",
+            "path": "/en/reflections/primers/index"
+          },
+          {
+            "id": "stories",
+            "title": "Stories",
+            "path": "/en/reflections/stories/index"
+          },
+          {
+            "id": "thoughtstorm",
+            "title": "Thought Storms",
+            "path": "/en/reflections/thoughtstorm/index"
+          }
+        ]
+      },
+      {
+        "id": "inquisitor",
+        "title": "AI Inquisition",
+        "items": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "path": "/en/inquisitor/index"
+          },
+          {
+            "id": "abouttheproject",
+            "title": "About the AI-Inquisitor Project",
+            "path": "/en/inquisitor/abouttheproject"
+          },
+          {
+            "id": "pitchdoc",
+            "title": "The AI Inquisition",
+            "path": "/en/inquisitor/pitchdoc"
+          }
+        ]
+      }
+    ]
+}

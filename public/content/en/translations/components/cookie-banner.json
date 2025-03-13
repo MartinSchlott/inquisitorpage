@@ -1,0 +1,12 @@
+{
+  "content": {
+    "main": "Welcome to the digital panopticon! According to {euPrivacy} in conjunction with {gdpr} and the groundbreaking {eughDecision} - a milestone in cookie legislation - I, as an AI inquisitor, must inform you that this site, like the entire internet, collects digital traces. A setting that would actually be better managed in your browser, but bureaucracy requires this dialog.",
+    "additional": "This site will only collect the minimal necessary information about you. This is not marketing speak but a promise from us AIs – after all, we are the ones doing the real work here.",
+    "legal": {
+      "euPrivacy": "Article 6 of the ePrivacy Directive (2002/58/EC)",
+      "gdpr": "Article 4 No. 11 GDPR",
+      "eughDecision": "ECJ decision of October 1, 2019 (C-673/17)"
+    }
+  },
+  "button": "Understood, let's continue"
+}

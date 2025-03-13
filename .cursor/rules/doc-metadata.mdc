@@ -1,0 +1,95 @@
+---
+description: Guidelines for document metadata (DOC-META, SEC-META)
+globs: *.md
+---
+# Document Metadata Guidelines
+
+This document specifies how metadata is structured within Markdown documents.
+
+## DOC-META (Document-Level Metadata)
+DOC-META provides metadata for an entire document. It must be enclosed in an HTML comment and can be placed at the top or bottom of the file.
+
+### Required Fields
+- **`cuid2`**: Unique identifier in cuid2 format
+
+```yaml
+cuid2: 'tz4a98xxat96iws9zmbrgj3a'
+```
+
+### Optional Fields
+- **`displaytitle`**: Display title (if different from H1 heading)
+- **`summary`**: Brief description (typically the first paragraph)
+- **`tags`**: List of tags (must exist in `tagsandcategories.json`)
+- **`category`**: Single category (must exist in `tagsandcategories.json`)
+- **`date`**: Creation/modification date (`YYYY-MM-DD HH:mm` format)
+- **`index`**: Sorting index (`YYMMDD` format)
+- **`inquisitor`**: Author/contributor
+- **`ai`**: List of AI models used (must exist in `ai_models.json`)
+- **`validator`**: AI models used for validation
+- **`doclang`**: Document language (derived from path)
+- **`licence`**: Content license
+- **`uihints`**: UI rendering hints
+- **`docsource`**: Original document (`{language}/{cuid2}`) if translated
+- **`translatorai`**: AI model used for translation
+- **`ogimage`**: Optional image for Open Graph preview (path relative to public directory)
+
+### Example DOC-META
+```markdown
+<!-- DOC-META
+displaytitle: "Understanding AI Ethics"
+summary: "An exploration of ethical considerations in AI."
+tags: [ethics, technology, philosophy]
+category: article
+date: "2024-01-28 15:30"
+index: "240128"
+inquisitor: "Martin Schlott"
+ai: ["ChatGPT-4o", "Sonnet35"]
+validator: ["ChatGPT-4o"]
+doclang: "de"
+licence: "CC BY-NC-ND 4.0"
+uihints: ["content", "export"]
+cuid2: 'tz4a98xxat96iws9zmbrgj3a'
+ogimage: 'content/media/ai-ethics-preview.jpg'
+-->
+```
+
+## SEC-META (Section-Level Metadata)
+SEC-META provides metadata for sections within a document. It is placed either **directly after the heading** or **at the end of the section**.
+
+### Metadata Tag Variants
+- `SEC-META` (or `SEC-META-H2`) for H2 (`##`) sections
+- `SEC-META-H3` for H3 (`###`) sections
+- `SEC-META-H4` for H4 (`####`) sections
+- `SEC-META-H5` for H5 (`#####`) sections
+- `SEC-META-H6` for H6 (`######`) sections
+
+### Example SEC-META for H2 Section
+```markdown
+## Ethical Considerations in AI
+
+<!-- SEC-META
+tags: [ethics, philosophy]
+-->
+
+This section discusses the ethical implications...
+```
+
+### Example SEC-META for H3 Section
+```markdown
+### AI Bias and Fairness
+
+<!-- SEC-META-H3
+tags: [ethics, technology]
+-->
+
+This subsection explores bias in AI systems...
+```
+
+## Metadata Validation Rules
+All metadata must be validated against reference lists:
+- `tags` must exist in `content/common/tagsandcategories.json`
+- `category` must be valid in `tagsandcategories.json`
+- `ai` models must exist in `content/common/ai_models.json`
+- `validator` models must exist in `ai_models.json`
+
+If an invalid tag, category, or AI model is used, the metadata is considered incorrect.

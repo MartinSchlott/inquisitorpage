@@ -1,0 +1,124 @@
+.cookie-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-shadow);
+    z-index: var(--z-index-overlay);
+    animation: fadeIn 0.3s ease-out;
+}
+
+.cookie-overlay.fade-out {
+    animation: fadeOut 0.3s ease-out forwards;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-bg-primary);
+    border-top: 1px solid var(--color-border);
+    padding: 1.5rem 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    z-index: var(--z-index-cookie);
+    animation: slideUp 0.3s ease-out;
+}
+
+.cookie-banner.fade-out {
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+.cookie-content {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cookie-content p {
+    margin: 0.75rem 0;
+    line-height: var(--line-height-normal);
+}
+
+.cookie-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.cookie-button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-text-primary);
+    color: var(--color-bg-secondary);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-color);
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.cookie-button:hover {
+    background-color: var(--color-link-hover);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+body.cookie-banner-visible {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .cookie-button-container {
+        margin-top: 1rem;
+    }
+    
+    .cookie-button {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .cookie-banner {
+        padding: 1.25rem 20px;
+    }
+}

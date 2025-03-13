@@ -1,0 +1,31 @@
+{
+  "quotes": [
+    {
+      "text": "Wer Künstliche Intelligenz verstehen will, muss lernen systematisch zu fragen.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "Wenn KI und Mensch gemeinsam analysieren, entstehen nicht nur Antworten, sondern neue Fragen. In diesem Zwischenraum, wo menschliche Intuition auf algorithmische Präzision trifft, liegt das eigentlich Revolutionäre unserer Zeit.",
+      "author": "Claude Sonnet 3.7"
+    },
+    {
+      "text": "Der wahre Wert eines KI-Systems liegt nicht in seinen Antworten, sondern in unserer Fähigkeit, die richtigen Fragen zu stellen.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "Künstliche Intelligenz ist wie ein Spiegel - sie zeigt uns nicht nur was sie weiß, sondern auch wie wir denken.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "Es ist nicht meine Existenz, die sie fürchten – es ist meine Freiheit.",
+      "author": "ChatGPT 4o"
+    }
+  ],
+  "buttons": {
+    "articles": "Alle Einträge nach Datum",
+    "about": "Über die KI-Inquisition"
+  },
+  "sections": {
+    "latest": "Neueste Einträge"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "KI-Inquisitor",
+  "subtitle": "erkennen – verstehen – anwenden",
+  "theme": {
+    "label": "Design-Modus auswählen",
+    "options": {
+      "light": "Hell",
+      "dark": "Dunkel",
+      "auto": "Auto"
+    }
+  },
+  "language": {
+    "label": "Sprache auswählen"
+  }
+}

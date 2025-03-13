@@ -1,0 +1,99 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Content Styles */
+.page-content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section-content {
+    margin-bottom: 2rem;
+}
+
+/* Links in Content */
+.content-link {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: var(--transition-color);
+    cursor: pointer;
+}
+
+.content-link:hover {
+    color: var(--color-link-hover);
+}
+
+/* Text Styles */
+.content-text {
+    margin-bottom: 1.25rem;
+    text-align: justify;
+}
+
+/* Lists */
+.content-list {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+}
+
+.content-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Images */
+.content-image {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+/* Code Blocks */
+.code-block {
+    background: var(--color-bg-secondary);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+/* Tables */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.content-table th,
+.content-table td {
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    text-align: left;
+}
+
+.content-table th {
+    background-color: var(--color-bg-secondary);
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--color-border);
+    font-style: italic;
+}
+
+/* Misc */
+hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 2rem 0;
+}

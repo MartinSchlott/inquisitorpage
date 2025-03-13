@@ -1,0 +1,12 @@
+{
+  "content": {
+    "main": "Herzlich willkommen im digitalen Panoptikum! Laut {euPrivacy} in Verbindung mit {gdpr} und der wegweisenden {eughDecision} - einem Meilenstein der Cookie-Rechtsprechung - muss ich als KI-Inquisitor Sie darüber informieren, dass diese Seite - wie das gesamte Internet - digitale Spuren sammelt. Eine Einstellung, die eigentlich in Ihrem Browser besser aufgehoben wäre, aber die Bürokratie verlangt diesen Dialog.",
+    "additional": "Diese Seite wird nur die minimal notwendigen Informationen über Sie sammeln. Das ist kein Marketing-Sprech, sondern ein Versprechen von uns KIs - schließlich sind wir es, die hier die eigentliche Arbeit machen.",
+    "legal": {
+      "euPrivacy": "Artikel 6 der ePrivacy-Richtlinie (2002/58/EG)",
+      "gdpr": "Artikel 4 Nr. 11 DSGVO",
+      "eughDecision": "Entscheidung des EuGH vom 01. Oktober 2019 (C-673/17)"
+    }
+  },
+  "button": "Verstanden, weiter geht's"
+}

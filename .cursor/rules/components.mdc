@@ -1,0 +1,71 @@
+---
+description: Guidelines for creating and structuring components
+globs: *.tsx
+---
+# Component Development Guidelines
+
+## Core Principles
+- Keep components modular and reusable.
+- Maintain a clear separation of concerns.
+- Ensure accessibility (ARIA attributes, keyboard navigation, focus management).
+- Follow the project's CSS guidelines (see `.cursor/rules/styleguide.mdc`).
+
+## Component Directory Structure
+- All components are placed **directly** in `src/components/`.
+- **Do not create subdirectories** for categories like `forms/`, `layout/`, or `buttons/`.
+- Each component has a single `.tsx` file and, if needed, a `.css` file.
+
+👉 **Example:**
+```
+src/components/
+├── Header.tsx
+├── Footer.tsx
+├── Navigation.tsx
+├── DocumentMetadata.tsx  ← New component goes here
+└── ActionMenu.tsx
+```
+
+## Component Structure
+Every component should:
+- Be defined as a functional React component.
+- Use TypeScript with proper prop typing.
+- Follow a clean folder structure (`src/components/{ComponentName}.tsx`).
+
+### Example Structure
+```typescript
+import { FC } from 'react';
+
+interface MyComponentProps {
+  title: string;
+  onClick: () => void;
+}
+
+const MyComponent: FC<MyComponentProps> = ({ title, onClick }) => {
+  return (
+    <button onClick={onClick} className="my-component">
+      {title}
+    </button>
+  );
+};
+
+export default MyComponent;
+```
+
+## Styling
+- Use CSS modules or scoped `.css` files (see `.cursor/rules/styleguide.mdc`).
+- Keep styles scoped to the component.
+- Ensure dark mode compatibility.
+
+## Accessibility
+- Use semantic HTML elements.
+- Provide ARIA attributes where necessary.
+- Ensure keyboard navigability and focus management.
+
+## i18n
+- All UI text must be translatable.
+- Load translations using `useEffect` (see `.cursor/rules/i18n.mdc`).
+
+## Testing
+- Verify that the component renders correctly with different props.
+- Ensure accessibility standards are met.
+- Check for responsive behavior on various screen sizes.

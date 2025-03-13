@@ -1,0 +1,18 @@
+{
+  "labels": {
+    "inquisitor": "Inquisitor",
+    "date": "Published",
+    "category": "Category",
+    "tags": "Tags",
+    "licence": "License terms",
+    "ai": {
+      "used": "Used AI models",
+      "validation": "Validated by"
+    },
+    "translation": {
+      "original": "Original text",
+      "translatedBy": "Translated with",
+      "viewOriginal": "View original text"
+    }
+  }
+}

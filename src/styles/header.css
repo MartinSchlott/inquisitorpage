@@ -1,0 +1,44 @@
+/* Header Styles */
+header {
+    text-align: left;
+    padding: 8px 30px;
+    background-color: var(--color-bg-primary);
+    border-bottom: 1px solid var(--color-border);
+    transition: var(--transition-theme);
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__title {
+    flex: 1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: var(--font-headings);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-headings);
+}
+
+header p {
+    margin: 0;
+    margin-bottom: 2px;
+    line-height: var(--line-height-normal);
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition-color);
+}
+
+header a:hover {
+    color: var(--color-link-hover);
+}

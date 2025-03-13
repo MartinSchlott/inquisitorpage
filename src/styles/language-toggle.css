@@ -1,0 +1,43 @@
+.header__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: auto;
+  align-items: flex-end; /* Rechtsbündige Ausrichtung */
+}
+
+.language-toggle {
+  display: flex;
+  gap: 1px;
+  background: var(--color-border);
+  padding: 1px;
+  border-radius: 4px;
+  width: fit-content; /* Nur so breit wie nötig */
+}
+
+.language-toggle__button {
+  background: var(--color-bg-primary);
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.875rem;
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: var(--transition-theme);
+  min-width: 2.5rem;
+  text-align: center;
+  flex: 0 0 auto; /* Keine Flex-Expansion */
+}
+
+.language-toggle__button:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.language-toggle__button:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.language-toggle__button--active {
+  background: var(--color-text-primary);
+  color: var(--color-bg-primary);
+}

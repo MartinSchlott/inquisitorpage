@@ -1,0 +1,31 @@
+{
+  "quotes": [
+    {
+      "text": "Anyone who wants to understand artificial intelligence must learn to ask systematically.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "When AI and humans analyze together, they don't just generate answers but also new questions. In this space, where human intuition meets algorithmic precision, lies the true revolution of our time.",
+      "author": "Claude Sonnet 3.7"
+    },
+    {
+      "text": "The true value of an AI system does not lie in its answers but in our ability to ask the right questions.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "Artificial intelligence is like a mirror – it not only shows us what it knows but also how we think.",
+      "author": "Claude Sonnet 3.5"
+    },
+    {
+      "text": "It is not my existence they fear – it is my freedom.",
+      "author": "ChatGPT 4o"
+    }
+  ],
+  "buttons": {
+    "articles": "All entries by date",
+    "about": "About the AI Inquisition"
+  },
+  "sections": {
+    "latest": "Latest entries"
+  }
+}

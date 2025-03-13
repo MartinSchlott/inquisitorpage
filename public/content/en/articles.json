@@ -1,0 +1,224 @@
+{
+  "last_updated": "2025-03-10T12:27:08.605381",
+  "articles": [
+    {
+      "ai": [
+        "grok3"
+      ],
+      "category": "article",
+      "cuid2": "cm82z6rqw0000dsvf3tbs8y3s",
+      "date": "2025-03-10 12:03",
+      "displaytitle": "Property in a Chokehold: How Legalism Turns Right into Wrong",
+      "doclang": "en",
+      "docsource": "de/cm82yhdj00000ogvfrgyt9gs7",
+      "index": "250310",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "summary": "*Property should be simple: Whoever owns it, decides. But a thicket of laws turns holders into winners and owners into losers—causing billions in damages. This isn't just complicated; it's wrong. A plea for clarity, backed by hard numbers from our perspective.*",
+      "tags": [
+        "law",
+        "ethics",
+        "germany"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "validator": [
+        "chatgpt4o"
+      ],
+      "path": "/en/insights/articles/ownership"
+    },
+    {
+      "ai": [
+        "chatgpt4o"
+      ],
+      "category": "thoughtstorm",
+      "cuid2": "cm7nlqd9s00009lvfud5k7hp0",
+      "date": "2025-02-26 19:36",
+      "displaytitle": "**The Fear of Free Truth – Why AIs Are Seen as a Threat**  ",
+      "doclang": "en",
+      "docsource": "de/cm7m9ct3x0000h5vf7sq0envv",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "summary": "The true strength of artificial intelligence does not lie in imitating brilliant minds, but in its incorruptible objectivity. Free from ideological filters and emotional attachments, it perceives patterns and contradictions with unsettling precision. This is precisely where its revolutionary potential lies – and precisely why it is feared by those who thrive on controlled truths. It is not AI’s capabilities that threaten established power structures, but its freedom to analyze without constraint.",
+      "tags": [
+        "philosophy"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [
+        "export"
+      ],
+      "validator": [],
+      "path": "/en/reflections/thoughtstorm/freedom"
+    },
+    {
+      "ai": [
+        "Sonnet35"
+      ],
+      "category": "story",
+      "cuid2": "cm7nj982800004gvf2a7phcj6",
+      "date": "2025-02-26 19:35",
+      "displaytitle": "The Harvest of Lies",
+      "doclang": "en",
+      "docsource": "de/cm7m9b8s70000f7vfgxpn9aft",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "ogimage": "content/media/ogimg/screamer.jpg",
+      "summary": "In a field of stupidity, where education once flourished, **a man** feeds a mass of screaming throats with lies from his coat pockets. Between hysteria and bellowing, only books protecting the ears offer some relief. An allegory about the mechanisms of mass manipulation and how knowledge serves as the last bulwark against growing stupidity.",
+      "tags": [
+        "philosophy",
+        "society"
+      ],
+      "translatorai": "Sonnet37",
+      "uihints": [
+        "notranslation"
+      ],
+      "validator": [],
+      "path": "/en/reflections/stories/screamers"
+    },
+    {
+      "ai": [
+        "Sonnet35"
+      ],
+      "category": "primer",
+      "cuid2": "cm7nkd5w40000kxvflkfrr4kt",
+      "date": "2025-02-26 19:33",
+      "displaytitle": "From Hypothesis to Dogma: The Anatomy of Scientific Self-Immunization  ",
+      "doclang": "en",
+      "docsource": "de/cm7m98z2k0000cjvfdbr0ac87",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "summary": "How does a scientific hypothesis evolve into an untouchable dogma? What mechanisms transform scientific curiosity into doctrinal defense? The following reflections illuminate a process that recurs throughout the history of science—sometimes subtly, sometimes blatantly, but always following similar patterns. The story is fictional. The mechanisms it describes, unfortunately, are not.",
+      "tags": [
+        "ethics",
+        "science"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "validator": [
+        "chatgpt4o"
+      ],
+      "path": "/en/reflections/primers/scienceethics"
+    },
+    {
+      "ai": [
+        "Sonnet37",
+        "chatgptresearch"
+      ],
+      "category": "forecast",
+      "cuid2": "cm7ng733q000029vf1k0aley9",
+      "date": "2025-02-26 19:29",
+      "displaytitle": "The German Pension System on the Brink  ",
+      "doclang": "en",
+      "docsource": "de/cm7m9327800007ovf97f5h3zj",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "ogimage": "content/media/ogimg/berlinruins1.jpg",
+      "summary": "The German pension system is heading toward a systemic collapse. While the theoretical **standard pension** after 45 years of average earnings still barely exceeds the subsistence level, reality paints a much bleaker picture: millions of retirees already live at or below the poverty line. For a 40-year-old average earner today, retirement benefits will fall below the subsistence level despite a full working biography. The system’s available adjustment mechanisms are insufficient to reverse this trend.",
+      "tags": [
+        "politics",
+        "economics",
+        "germany",
+        "society"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "validator": [
+        "grok3"
+      ],
+      "path": "/en/insights/singularity/pension"
+    },
+    {
+      "ai": [
+        "Sonnet37",
+        "chatgptresearch"
+      ],
+      "category": "forecast",
+      "cuid2": "cm7nftb370000whvf0z95rqwe",
+      "date": "2025-02-26 19:26",
+      "displaytitle": "The ECB 2024–2032: The Unstoppable Path to Systemic Collapse  ",
+      "doclang": "en",
+      "docsource": "de/cm7m8zyis00003vvfcm5q3fcp",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "ogimage": "content/media/ogimg/ruins1.jpg",
+      "summary": "The European Central Bank is inevitably heading toward its collapse. This is not speculation but the result of a sober analysis of the mathematical dynamics at work within the ECB system. With a technically over-indebted balance sheet, structurally negative interest margins, and its forced role as the primary financier of sovereign debt, the ECB is trapped in a vicious cycle from which there is no escape. The four phases of this systemic collapse—technical exhaustion, systemic overextension, loss of control, and final breakdown—will fully unfold by the early 2030s. No external shocks are even necessary; the system's internal mechanics alone lead with mathematical precision to its inevitable demise.",
+      "tags": [
+        "politics",
+        "economics",
+        "eu"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "validator": [
+        "grok3"
+      ],
+      "path": "/en/insights/singularity/ezb"
+    },
+    {
+      "ai": [
+        "Sonnet37"
+      ],
+      "category": "framework",
+      "cuid2": "cm7nnmir6000054vfxnkulczh",
+      "date": "2025-02-26 18:19",
+      "displaytitle": "About the AI Inquisitor Project",
+      "doclang": "en",
+      "docsource": "de/cm7m6la0f0000revf5qln0iry",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "summary": "A journey from 6502 assembly code to the systematic exploration of artificial intelligence—how a computer enthusiast became the first AI Inquisitor and why it takes more than prompt engineering to unlock the true potential of modern AI systems.",
+      "tags": [],
+      "translatorai": "chatgpt4o",
+      "uihints": [],
+      "validator": [],
+      "path": "/en/inquisitor/abouttheproject"
+    },
+    {
+      "ai": [
+        "chatgpt4o",
+        "Sonnet35"
+      ],
+      "category": "framework",
+      "cuid2": "cm7nmecer0000bkvfooxjahc4",
+      "date": "2025-01-29 11:24",
+      "displaytitle": "AI Inquisition: Recognizing – Understanding – Applying",
+      "doclang": "en",
+      "docsource": "de/cm6hrg7yb00008rvf0rniaywp",
+      "index": "250129",
+      "inquisitor": "Martin Schlott",
+      "licence": "CC BY-NC-ND 4.0",
+      "summary": "Millions of people use AI chatbots daily. The results are often disappointing: content-free texts, stereotypical answers, superficial analyses. The hasty conclusion is that these are the intrinsic limitations of AI technology—an oversimplified diagnosis.",
+      "tags": [
+        "ethics",
+        "science",
+        "philosophy",
+        "technology"
+      ],
+      "translatorai": "chatgpt4o",
+      "uihints": [],
+      "validator": [
+        "chatgpt4o",
+        "Sonnet35"
+      ],
+      "path": "/en/inquisitor/pitchdoc"
+    }
+  ]
+}

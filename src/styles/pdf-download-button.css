@@ -1,0 +1,25 @@
+.pdf-download-button {
+  all: unset;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pdf-download-button__link {
+  all: unset;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+
+.pdf-download-button__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

@@ -1,0 +1,30 @@
+.footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: var(--color-bg-primary);
+    border-top: 1px solid var(--color-border);
+    transition: var(--transition-theme);
+}
+
+.social-links {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.social-links a {
+    color: var(--color-text-secondary);
+    transition: var(--transition-color);
+}
+
+.social-links a:hover {
+    color: var(--color-text-primary);
+}
+
+.social-links span {
+    color: var(--color-text-secondary);
+    padding: 0 4px;
+}

@@ -1,0 +1,36 @@
+---
+description: UI component guidelines (structure, accessibility, interactions)
+globs: *.tsx
+---
+# UI Component Guidelines
+
+## General Principles
+- Components should be minimalistic and functional.
+- Maintain accessibility (ARIA roles, keyboard support, focus handling).
+- Ensure responsiveness and mobile compatibility.
+- Animations should be smooth and unobtrusive.
+
+## Action Menu
+- Floats in the bottom-left corner.
+- Automatically adjusts position when the footer is visible.
+- Uses smooth hover-based activation.
+- Fully keyboard and touch accessible.
+- Animated transitions with staged item reveal.
+- Intelligent `z-index` management to avoid overlap issues.
+
+## Theme & Language Selection
+- Right-aligned toggles in the header.
+- Uses system preferences as the default.
+- Ensures persistent user choices.
+- Fully keyboard accessible.
+- Optimized touch targets for mobile.
+
+## Interaction Design
+- Buttons should have clear hover and active states.
+- Transitions should be subtle (e.g., `ease-in-out`, `200ms`).
+- Avoid excessive animations that distract from content.
+
+## See Also
+- `.cursor/rules/styleguide.mdc` for CSS standards.
+- `.cursor/rules/components.mdc` for component structure.
+- `.cursor/rules/i18n.mdc` for translation handling.

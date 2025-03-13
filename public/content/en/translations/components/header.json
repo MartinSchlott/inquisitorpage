@@ -1,0 +1,15 @@
+{
+  "title": "AI-Inquisitor",
+  "subtitle": "recognizing – understanding – applying",
+  "theme": {
+    "label": "Select design mode",
+    "options": {
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "Auto"
+    }
+  },
+  "language": {
+    "label": "Select language"
+  }
+}

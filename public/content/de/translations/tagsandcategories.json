@@ -1,0 +1,131 @@
+{
+    "tags": {
+      "politics": {
+        "name": "Politik",
+        "description": "Politische Themen, z. B. Gesetzgebung, Machtstrukturen, internationale Beziehungen."
+      },
+      "economics": {
+        "name": "Wirtschaft",
+        "description": "Wirtschaftliche Themen, z. B. Märkte, Wirtschaftspolitik, ökonomische Theorien."
+      },
+      "law": {
+        "name": "Recht",
+        "description": "Rechtliche Themen, z. B. Gesetze, Rechtstheorie, rechtliche Analysen."
+      },
+      "history": {
+        "name": "Geschichte",
+        "description": "Historische Ereignisse, Entwicklungen und deren Bedeutung."
+      },
+      "news": {
+        "name": "Nachrichten",
+        "description": "Aktuelle Ereignisse und Nachrichten, die relevant für den Blog sind."
+      },
+      "ethics": {
+        "name": "Ethik",
+        "description": "Moralische und ethische Fragen in verschiedenen Kontexten."
+      },
+      "education": {
+        "name": "Bildung",
+        "description": "Bildung und Wissensvermittlung, z. B. Seminare, Tutorials."
+      },
+      "science": {
+        "name": "Wissenschaft",
+        "description": "Wissenschaftliche Themen, z. B. Forschung, wissenschaftliche Prinzipien."
+      },
+      "philosophy": {
+        "name": "Philosophie",
+        "description": "Philosophische Überlegungen, Theorien und Reflexionen."
+      },
+      "energy-transition": {
+        "name": "Energiewende",
+        "description": "Energiewende, erneuerbare Energien, nachhaltige Technologien."
+      },
+      "climate-change": {
+        "name": "Klimawandel",
+        "description": "Klimawandel, Umweltpolitik und globale Erwärmung."
+      },
+      "society": {
+        "name": "Gesellschaft",
+        "description": "Gesellschaftliche Themen, z. B. soziale Bewegungen, gesellschaftlicher Wandel."
+      },
+      "zeitgeist": {
+        "name": "Zeitgeist",
+        "description": "Zeitgeist-Themen, wie Diversität, kulturelle Trends und moderne Werte."
+      },
+      "technology": {
+        "name": "Technologie",
+        "description": "Technologische Entwicklungen und deren Auswirkungen auf Gesellschaft und Wirtschaft."
+      },
+      "eu": {
+        "name": "Europäische Union",
+        "description": "Themen zur Europäischen Union, z. B. Politik, Gesetzgebung, Integration."
+      },
+      "germany": {
+        "name": "Deutschland",
+        "description": "Themen zu Deutschland, z. B. Politik, Gesetzgebung, Integration."
+      }
+    },
+    "categories": {
+      "uncategorized": {
+        "name": "Nicht kategorisiert",
+        "description": "Standardkategorie für Inhalte, die noch nicht zugeordnet sind."
+      },
+      "navdoc": {
+        "name": "Navigationsdokument",
+        "description": "Dokumente zur Navigation, z. B. Indexseiten, Menüs."
+      },
+      "story": {
+        "name": "Geschichte",
+        "description": "Narrative Inhalte, z. B. Geschichten, Erzählungen oder illustrative Beispiele."
+      },
+      "article": {
+        "name": "Artikel",
+        "description": "Klassische Artikel zu einem Thema, z. B. Analysen oder Meinungsbeiträge."
+      },
+      "forecast": {
+        "name": "Prognose",
+        "description": "Prognosen, Zukunftsanalysen oder Trends."
+      },
+      "analysis": {
+        "name": "Analyse",
+        "description": "Tiefgehende Analysen und kritische Betrachtungen."
+      },
+      "knowledge": {
+        "name": "Wissen",
+        "description": "Wissensgrundlagen, z. B. Tutorials oder erklärende Inhalte."
+      },
+      "tutorial": {
+        "name": "Tutorial",
+        "description": "Schritt-für-Schritt-Anleitungen oder Schulungsinhalte."
+      },
+      "guideline": {
+        "name": "Leitfaden",
+        "description": "Praktische Leitlinien oder Empfehlungen zu spezifischen Themen."
+      },
+      "framework": {
+        "name": "Rahmenwerk",
+        "description": "Methodische oder systematische Ansätze, z. B. Modelle oder Konzepte zur KI-Inquisition."
+      },
+      "thoughtstorm": {
+        "name": "Gedankensturm",
+        "description": "Kreative und philosophische Texte, unkonventionelle Ideen oder Reflexionen."
+      },
+      "services": {
+        "name": "Dienstleistungen",
+        "description": "Beschreibungen von Beratungs- und Seminarangeboten."
+      },
+      "primer": {
+        "name": "Einführung",
+        "description": "Einführungstexte, hypothetische Fallstudien und systematische Betrachtungen."
+      },
+      "meta": {
+        "name": "Meta",
+        "description": "Meta-Informationen wie Impressum, Datenschutz, „Über den Inquisitor“."
+      },
+      "stub": {
+        "name": "Stub",
+        "description": "Platzhalter-Dokumente für nicht übersetzte oder noch zu erstellende Inhalte."
+      }
+    }
+  }
+  

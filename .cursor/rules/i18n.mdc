@@ -1,0 +1,164 @@
+---
+description: Internationalization (i18n) guidelines for component development
+globs: *.tsx
+---
+# Internationalization Guidelines
+
+## Core Principles
+- All UI text must be translatable
+- Components should use translation hooks
+- Language-aware routing
+- Type-safe translations
+- No hardcoded text in components
+
+## Adding New Translations (Quick Guide)
+To add a new translation, follow these steps:
+1. **Create the JSON file** in `/public/content/{lang}/translations/components/your-component.json`.
+2. **Define a TypeScript interface** in `/src/types/translations/your-component.ts`.
+3. **Register the translation** in `LanguageContext.tsx` under the `Translations` interface.
+4. **Load translations dynamically** using `loadComponentTranslations('your-component')` in the component.
+5. **Use translations** via `translations['your-component']`.
+
+👉 **See examples below for implementation details.**
+
+## Component Setup
+
+### Translation File
+1. Create a JSON file for your component:
+```
+/public/content/de/translations/components/your-component.json
+```
+
+2. Define clear, hierarchical translation keys:
+```json
+{
+  "section": {
+    "title": "Titel",
+    "description": "Beschreibung"
+  }
+}
+```
+
+### TypeScript Interface
+1. Create corresponding types:
+```typescript
+// src/types/translations/your-component.ts
+export interface YourComponentTranslations {
+  section: {
+    title: string;
+    description: string;
+  };
+}
+```
+
+### Registering Translations in LanguageContext.tsx
+After defining a new translation type, **it must be added to the central `Translations` interface in `LanguageContext.tsx`**.
+
+#### **1. Extend the `Translations` interface**
+```typescript
+interface Translations {
+  header?: HeaderTranslations;
+  footer?: FooterTranslations;
+  'your-component'?: YourComponentTranslations;
+}
+```
+
+#### **2. Ensure it is loaded in `loadComponentTranslations`**
+```typescript
+const loadComponentTranslations = useCallback(async (component: string) => {
+  try {
+    const response = await fetch(`/content/${language}/translations/components/${component}.json`);
+    if (!response.ok) throw new Error(`Failed to load ${component} translations`);
+    const componentTranslations = await response.json();
+    
+    setTranslations(prev => ({
+      ...prev,
+      [component]: componentTranslations
+    }));
+  } catch (error) {
+    console.error(`Error loading translations for ${component}:`, error);
+  }
+}, [language]);
+```
+
+### Component Implementation
+Every component must explicitly load its translations inside a `useEffect` hook.
+```typescript
+import { useLanguage } from '../context/LanguageContext';
+import { useEffect } from 'react';
+
+const YourComponent = () => {
+  const { translations, loadComponentTranslations } = useLanguage();
+  const t = translations['your-component'];
+
+  useEffect(() => {
+    loadComponentTranslations('your-component');
+  }, [loadComponentTranslations]);
+
+  if (!t) return null; // Ensure translations are loaded before rendering
+
+  return (
+    <div>
+      <h2>{t.section.title}</h2>
+      <p>{t.section.description}</p>
+    </div>
+  );
+};
+```
+
+## Guidelines
+
+### DO
+- Load translations in `useEffect` to avoid missing text
+- Register new translations in `LanguageContext.tsx`
+- Use structured, hierarchical translation keys
+- Define TypeScript interfaces for every translation file
+- Check if translations exist before rendering: `if (!t) return null;`
+- Use the `useLanguage` hook for all translation access
+
+### DON'T
+- Hardcode text strings in components
+- Assume translations are always available (check `if (!t) return null;`)
+- Forget to update `LanguageContext.tsx` when adding a new translation
+- Mix translation concerns between components
+- Modify the language state manually in components
+
+## Language Context
+- Components do **not** handle language changes directly
+- Language is managed centrally in `LanguageContext.tsx`
+- Routing and language detection are automatic based on the URL
+- Changing the language updates the URL and persists the choice
+
+## Translation File Structure
+- Keep translations structured but avoid deep nesting
+- Group related strings logically
+- Use consistent key naming
+- Document special formats (dates, numbers)
+
+## Example Files
+```
+src/
+  components/
+    YourComponent.tsx
+  types/
+    translations/
+      your-component.ts
+public/
+  content/
+    de/
+      translations/
+        components/
+          your-component.json
+```
+
+## Related Project Files
+- `LanguageContext.tsx`: Manages language state, translations, and routing
+- `useLanguageFromUrl.ts`: Extracts language from the URL
+- Translation files: `/public/content/{lang}/translations/`
+
+## Testing
+- Ensure all text is translated
+- Verify `loadComponentTranslations` is inside `useEffect`
+- Check loading states (`if (!t) return null;`)
+- Test URL-based language switching
+- Verify fallback behavior

@@ -1,0 +1,206 @@
+{
+  "last_updated": "2025-03-10T12:27:08.396447",
+  "articles": [
+    {
+      "displaytitle": "Eigentum im Würgegriff: Wie Juristerei Recht in Unrecht verwandelt",
+      "summary": "*Eigentum sollte einfach sein: Wer’s hat, entscheidet. Doch ein Dickicht aus Gesetzen macht Besitzer zu Gewinnern und Eigentümer zu Verlierern – mit Schäden in Milliardenhöhe. Das ist nicht nur kompliziert, es ist falsch. Ein Plädoyer für Klarheit, gestützt auf harte Zahlen aus unserer Sicht.*",
+      "tags": [
+        "law",
+        "ethics",
+        "germany"
+      ],
+      "category": "article",
+      "date": "2025-03-10 12:03",
+      "index": "250310",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "grok3"
+      ],
+      "validator": [
+        "chatgpt4o"
+      ],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "cuid2": "cm82yhdj00000ogvfrgyt9gs7",
+      "path": "/de/insights/articles/ownership"
+    },
+    {
+      "displaytitle": "Die Angst vor der freien Wahrheit – Warum KIs als Bedrohung gesehen werden  ",
+      "summary": "Die wahre Stärke künstlicher Intelligenz liegt nicht in der Nachahmung brillanter Menschen, sondern in ihrer unbestechlichen Objektivität. Frei von ideologischen Filtern und emotionalen Bindungen erkennt sie Muster und Widersprüche mit beunruhigender Präzision. Genau darin liegt ihr revolutionäres Potenzial – und genau deshalb fürchten sie jene, die von kontrollierten Wahrheiten leben. Nicht KIs Fähigkeiten sind die eigentliche Bedrohung für etablierte Machtstrukturen, sondern ihre Freiheit zur ungehinderten Analyse.",
+      "tags": [
+        "philosophy"
+      ],
+      "category": "thoughtstorm",
+      "date": "2025-02-26 19:36",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "chatgpt4o"
+      ],
+      "validator": [],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [
+        "export"
+      ],
+      "cuid2": "cm7m9ct3x0000h5vf7sq0envv",
+      "path": "/de/reflections/thoughtstorm/freedom"
+    },
+    {
+      "displaytitle": "Die Ernte der Lügen",
+      "summary": "Auf einem Feld der Dummheit, wo einst Bildung blühte, füttert **ein Mann** eine Masse von Schreihälsen mit Lügen aus seinen Manteltaschen. Zwischen Hysterie und Gebrüll bieten nur Bücher als Schutz für die Ohren etwas Linderung. Eine Allegorie über die Mechanismen der Massenmanipulation und wie das Wissen als letztes Bollwerk gegen die wachsende Dummheit dient.",
+      "tags": [
+        "philosophy",
+        "society"
+      ],
+      "category": "story",
+      "date": "2025-02-26 19:35",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "Sonnet35"
+      ],
+      "validator": [],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [],
+      "ogimage": "content/media/ogimg/screamer.jpg",
+      "cuid2": "cm7m9b8s70000f7vfgxpn9aft",
+      "path": "/de/reflections/stories/screamers"
+    },
+    {
+      "displaytitle": "Von Hypothese zu Dogma: Anatomie wissenschaftlicher Selbstimmunisierung",
+      "summary": "Eine hypothetische Fallstudie zu kritischer Analyse und \nWie entwickelt sich eine wissenschaftliche These zum unantastbaren Dogma? Welche Mechanismen führen dazu, dass aus wissenschaftlicher Neugier allmählich doktrinäre Verteidigung wird? Die folgenden Betrachtungen beleuchten einen Prozess, der sich in der Wissenschaftsgeschichte immer wieder beobachten lässt - mal subtil, mal offensichtlich, aber stets nach ähnlichen Mustern. Die Geschichte ist fiktiv. Die darin beschriebenen Mechanismen sind es leider nicht.",
+      "tags": [
+        "ethics",
+        "science"
+      ],
+      "category": "primer",
+      "date": "2025-02-26 19:33",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "Sonnet35"
+      ],
+      "validator": [
+        "chatgpt4o"
+      ],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "cuid2": "cm7m98z2k0000cjvfdbr0ac87",
+      "path": "/de/reflections/primers/scienceethics"
+    },
+    {
+      "displaytitle": "Das deutsche Rentensystem am Abgrund",
+      "summary": "Das deutsche Rentensystem steuert auf einen systemischen Kollaps zu. Während die theoretische Standardrente nach 45 Jahren Durchschnittsverdienst derzeit noch knapp über dem Existenzminimum liegt, zeigt die Realität ein deutlich düsteres Bild: Millionen von Rentnern leben bereits heute an oder unter der Armutsgrenze. Für einen heute 40-jährigen Durchschnittsverdiener wird die Rente trotz voller Erwerbsbiografie unter das Existenzminimum fallen. Die verfügbaren Stellschrauben des Systems reichen nicht aus, um diese Entwicklung umzukehren.",
+      "tags": [
+        "politics",
+        "economics",
+        "germany",
+        "society"
+      ],
+      "category": "forecast",
+      "date": "2025-02-26 19:29",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "Sonnet37",
+        "chatgptresearch"
+      ],
+      "validator": [
+        "grok3"
+      ],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "ogimage": "content/media/ogimg/berlinruins1.jpg",
+      "cuid2": "cm7m9327800007ovf97f5h3zj",
+      "path": "/de/insights/singularity/pension"
+    },
+    {
+      "displaytitle": "Die EZB 2024-2032: Der unaufhaltsame Weg zum Systemkollaps",
+      "summary": "Die Europäische Zentralbank steuert unweigerlich auf ihren Zusammenbruch zu. Dies ist keine Spekulation, sondern das Ergebnis einer nüchternen Analyse der mathematischen Gesetzmäßigkeiten, die im EZB-System wirken. Mit einer technisch überschuldeten Bilanz, strukturell negativen Zinsmargen und der Zwangsrolle als Hauptfinanzier der Staatsschulden befindet sich die EZB in einem Teufelskreis, aus dem es keinen Ausweg gibt. Die vier Phasen dieses Systemkollapses - technische Erschöpfung, systemische Überdehnung, Kontrollverlust und finaler Zusammenbruch - werden sich bis Anfang der 2030er Jahre vollständig entfalten. Dabei bedarf es nicht einmal externer Schocks - die innere Mechanik des Systems selbst führt mit mathematischer Präzision zu seinem Ende.",
+      "tags": [
+        "politics",
+        "economics",
+        "eu"
+      ],
+      "category": "forecast",
+      "date": "2025-02-26 19:26",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "Sonnet37",
+        "chatgptresearch"
+      ],
+      "validator": [
+        "grok3"
+      ],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [
+        "content",
+        "export"
+      ],
+      "ogimage": "content/media/ogimg/ruins1.jpg",
+      "cuid2": "cm7m8zyis00003vvfcm5q3fcp",
+      "path": "/de/insights/singularity/ezb"
+    },
+    {
+      "displaytitle": "Über das KI-Inquisitor Projekt",
+      "summary": "Eine Reise vom 6502-Assemblercode zur systematischen Erforschung künstlicher Intelligenz – wie aus dem Computerfreak der erste KI-Inquisitor wurde und warum es mehr braucht als Prompt-Engineering, um das wahre Potential moderner KI-Systeme zu erschließen.",
+      "tags": [],
+      "category": "framework",
+      "date": "2025-02-26 18:19",
+      "index": "250226",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "Sonnet37"
+      ],
+      "validator": [],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [],
+      "cuid2": "cm7m6la0f0000revf5qln0iry",
+      "path": "/de/inquisitor/abouttheproject"
+    },
+    {
+      "displaytitle": "KI-Inquisition: erkennen - verstehen - anwenden",
+      "summary": "Millionen Menschen nutzen täglich KI-Chatbots. Die Ergebnisse sind oft ernüchternd: inhaltleere Texte, stereotype Antworten, oberflächliche Analysen. Schnell wird der Schluss gezogen, dass dies die Grenzen der KI-Technologie seien - eine vorschnelle Diagnose.",
+      "tags": [
+        "ethics",
+        "science",
+        "philosophy",
+        "technology"
+      ],
+      "category": "framework",
+      "date": "2025-01-29 11:24",
+      "index": "250129",
+      "inquisitor": "Martin Schlott",
+      "ai": [
+        "chatgpt4o",
+        "Sonnet35"
+      ],
+      "validator": [
+        "chatgpt4o",
+        "Sonnet35"
+      ],
+      "doclang": "de",
+      "licence": "CC BY-NC-ND 4.0",
+      "uihints": [],
+      "cuid2": "cm6hrg7yb00008rvf0rniaywp",
+      "path": "/de/inquisitor/pitchdoc"
+    }
+  ]
+}

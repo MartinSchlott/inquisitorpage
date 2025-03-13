@@ -1,0 +1,7 @@
+{
+  "loading": "Artikel werden geladen...",
+  "noArticles": "Keine Artikel gefunden",
+  "noArticlesFiltered": "Keine Artikel entsprechen den ausgewählten Filtern",
+  "errorLoading": "Fehler beim Laden der Artikel",
+  "retry": "Erneut versuchen"
+}

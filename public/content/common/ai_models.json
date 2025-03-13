@@ -1,0 +1,44 @@
+{
+    "Llama31local": {
+        "displayname": "Llama 3.1 8b Local",
+        "model": "lmstudio-community/meta-llama-3.1-8b-instruct"
+    },
+    "MistralNemo2407@8": {
+        "displayname": "Mistral Nemo 2407 Local 8bit",
+        "model": "lmstudio-community/mistral-nemo-instruct-2407"
+    },
+    "MistralNemo2407@6": {
+        "displayname": "Mistral Nemo 2407 Local 6bit K",
+        "model": "lmstudio-community/mistral-nemo-instruct-2407"
+    },
+    "gpt4omini": {
+        "displayname": "GPT-4o Mini",
+        "model": "gpt-4o-mini"
+    },
+    "chatgpt4o": {
+        "displayname": "ChatGPT-4o",
+        "model": "chatgpt-4o-latest"
+    },
+    "Sonnet35":
+    {
+        "displayname": "Claude Sonnet 3.5",
+        "model": "lmstudio-community/sonnet-3.5-instruct"
+    },
+    "Sonnet37":
+    {
+        "displayname": "Claude Sonnet 3.7",
+        "model": "lmstudio-community/sonnet-3.5-instruct"
+    },
+    "chatgptresearch": {
+        "displayname": "ChatGPT-Deep-Research",
+        "model": "chatgpt-4o-deepsearch"
+    },
+    "grok3": {
+        "displayname": "Grok 3",
+        "model": "grok-3-large"
+    },
+    "grok3research": {
+        "displayname": "Grok 3 Research",
+        "model": "grok-3-research"
+    }
+}

@@ -1,0 +1,89 @@
+/* Container für Metadaten */
+.metadata-container {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.metadata-grid {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .metadata-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Metadata Block */
+.metadata-block {
+  padding: 0.35rem 0;
+}
+
+.metadata-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.metadata-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.metadata-value {
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+}
+
+/* Tags */
+.metadata-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.1rem;
+}
+
+.metadata-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+
+/* Models */
+.metadata-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.1rem;
+}
+
+.metadata-model {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-primary);
+  background: var(--color-bg-secondary);
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+}
+
+/* Links */
+.metadata-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: var(--transition-color);
+  font-size: 0.875rem;
+}
+
+.metadata-link:hover {
+  color: var(--color-link-hover);
+}

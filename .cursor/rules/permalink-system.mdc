@@ -1,0 +1,37 @@
+---
+description: Documentation of the permalink system for permanent URLs
+globs: *.ts,*.tsx
+alwaysApply: false
+---
+# Permalink System
+
+## Core Principles
+- CUID2-based permanent URLs
+- Language-specific mappings
+- Automatic conversion between regular URLs and permalinks
+
+## Implementation
+
+### Permalink Mapping
+- Language-specific mappings in `/content/{lang}/permalinks.txt`
+- Format: `cuid2:relative-path`
+- Example: `tz4a98xxat96iws9zmbrgj3a:inquisitor/about`
+
+### Components and Hooks
+- Implementation in `src/hooks/usePermalinkUrl.ts`
+- Redirect component in `src/components/PermalinkRedirect.tsx`
+
+### URL Conversion
+- Auto-conversion of regular URLs to permalinks when available
+- Preservation of query parameters and hash values during conversion
+- Fallback to regular URLs when permalinks are missing
+
+## Adding New Permalinks
+1. Generate a new CUID2 using a suitable library or tool
+2. Add the mapping to the appropriate language's `permalinks.txt` file
+3. Use the permalink in links and references
+
+## Technical Implementation Details
+- The permalink system uses URL parameters for internal routing
+- Permalinks are processed before language detection
+- URL state management is handled in the router configuration
