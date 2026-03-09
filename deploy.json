@@ -1,5 +1,0 @@
-{
-  "webroot": "/var/www/inquisitor",
-  "rsyncExclude": ["content"],
-  "contentRepo": "inqcontent"
-}
