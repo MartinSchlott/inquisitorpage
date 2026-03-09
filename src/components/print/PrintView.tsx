@@ -37,9 +37,18 @@ interface AIModels {
 interface PrintViewProps {
   documentTitle: string;
   content?: string;
-  metadata: any;
+  metadata: {
+    inquisitor?: string;
+    date?: string;
+    licence?: string;
+    ai?: string[];
+    validator?: string[];
+  };
   translations: DocumentMetadataTranslations;
-  headerTranslations: any;
+  headerTranslations: {
+    title: string;
+    subtitle: string;
+  };
   aiModels: AIModels;
   onMount?: () => void;
 }
@@ -55,7 +64,7 @@ const PrintView: React.FC<PrintViewProps> = ({
 }) => {
   useEffect(() => {
     onMount?.();
-  }, []); // Called once when mounted
+  }, [onMount]);
 
   return (
     <>

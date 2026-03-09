@@ -33,7 +33,8 @@ const CookieBanner = () => {
     // Set cookie with 14-day expiration
     const expirationDate = new Date();
     expirationDate.setDate(expirationDate.getDate() + 14);
-    document.cookie = `cookie_consent=true;path=/;expires=${expirationDate.toUTCString()}`;
+    const secure = location.protocol === 'https:' ? ';Secure' : '';
+    document.cookie = `cookie_consent=true;path=/;expires=${expirationDate.toUTCString()};SameSite=Lax${secure}`;
     
     // Wait for animation to complete
     setTimeout(() => {

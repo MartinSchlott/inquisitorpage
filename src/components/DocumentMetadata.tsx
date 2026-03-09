@@ -37,7 +37,7 @@ export const DocumentMetadata: React.FC<DocumentMetadataProps> = ({ metadata }) 
   }, [loadComponentTranslations]);
 
   // Frühe Exits für verschiedene States
-  if (!metadata?.category || EXCLUDED_CATEGORIES.includes(metadata.category as any)) {
+  if (!metadata?.category || EXCLUDED_CATEGORIES.includes(metadata.category as typeof EXCLUDED_CATEGORIES[number])) {
     return null;
   }
 

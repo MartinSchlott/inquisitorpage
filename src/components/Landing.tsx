@@ -31,7 +31,7 @@ const Landing: React.FC = () => {
       setCurrentQuoteIndex(newIndex);
       setIsQuoteFading(false);
     }, 1000);
-  }, [currentQuoteIndex, t?.quotes?.length]);
+  }, [currentQuoteIndex, t?.quotes]);
 
   useEffect(() => {
     if (!t?.quotes) return;

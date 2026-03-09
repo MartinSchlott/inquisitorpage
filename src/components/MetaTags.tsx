@@ -33,7 +33,7 @@ export const MetaTags: React.FC<MetaTagsProps> = ({ docMeta, path }) => {
   const title = docMeta?.displaytitle || translations.header?.title || 'AI Inquisitor';
   const description = docMeta?.summary || '';
   const image = resolveImagePath();
-  const url = new URL(path, window.location.origin).toString();
+  const url = new URL(path + window.location.search + window.location.hash, window.location.origin).toString();
 
   return (
     <Helmet>

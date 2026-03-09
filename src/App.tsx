@@ -15,7 +15,6 @@ import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
 import { useLanguageFromUrl } from './hooks/useLanguageFromUrl';
 import { usePermalinkUrl } from './hooks/usePermalinkUrl';
-import './styles/main.css';
 import { useEffect } from 'react';
 
 // Hilfsfunktion um die initiale Sprache zu ermitteln

@@ -4,7 +4,6 @@ import { MetaTags } from './MetaTags';
 import { useLocation, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { loadMarkdownFile, MarkdownContent } from '../utils/markdownLoader';
-import '../styles/main.css';
 import DocumentMetadata from './DocumentMetadata';
 import Breadcrumb from './Breadcrumb';
 import { useLanguage } from '../context/LanguageContext';
@@ -50,7 +49,7 @@ const Content = () => {
       // Update URL without page reload and without .md extension
       const urlPath = fullPath.replace(/\.md$/, '');
       navigate(`/${urlPath}`);
-    } catch (error) {
+    } catch {
       navigate('/404');
     }
   };
@@ -78,7 +77,7 @@ const Content = () => {
         // Set initial directory context
         const dir = path.split('/').slice(0, -1).join('/');
         setCurrentDir(dir);
-      } catch (error) {
+      } catch {
         navigate('/404');
       }
     };

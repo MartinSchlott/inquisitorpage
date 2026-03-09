@@ -23,7 +23,7 @@ const Footer = () => {
           title={t.social.x.title}
           aria-label={t.social.x.ariaLabel}
         >
-          X
+          {t.social.x.title}
         </a>
         <span>/</span>
         <a
@@ -34,7 +34,7 @@ const Footer = () => {
           title={t.social.linkedin.title}
           aria-label={t.social.linkedin.ariaLabel}
         >
-          LinkedIn
+          {t.social.linkedin.title}
         </a>
       </div>
       <Link to={`/${language}/.imprint`} className="content-link" replace>
